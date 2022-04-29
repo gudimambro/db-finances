@@ -1,0 +1,12 @@
+{
+  "banks": [
+    {
+      "id": 1,
+      "title": "Itau"
+    },
+    {
+      "id": 2,
+      "title": "Nubank"
+    }
+  ],
+}
