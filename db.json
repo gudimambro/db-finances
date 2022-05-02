@@ -1,31 +1,45 @@
 {
-  "posts": [
+  "banks": [
     {
-      "id": 1,
-      "title": "Post 1"
+      "id": "f7373b9b-1073-48ca-a291-8bfe2339d55d",
+      "code": "341",
+      "description": "Itau"
     },
     {
-      "id": 2,
-      "title": "Post 2"
+      "id": "bd974885-4001-4919-8c7c-ea267bbcf419",
+      "code": "00360305",
+      "description": "Nubank"
     },
     {
-      "id": 3,
-      "title": "Post 3"
+      "id": "a4d8278d-be8a-4a19-8f1a-a5d1f86cd4fe",
+      "code": "237",
+      "description": "Bradesco"
     }
   ],
-  "comments": [
+  "accounts": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": "2c49e5fa-9c65-45f0-8032-67b06f6bf0a1",
+      "description": "Main",
+      "accountTypeId": ""
     },
     {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
+      "id": "3d07db79-2f20-421c-bf31-feea95618c9e",
+      "description": "Savings",
+      "accountTypeId": ""
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "accountTypes": [
+    {
+      "id": "bc84665f-388e-4771-8e17-7cb1bbe46e96",
+      "description": "Checking"
+    },
+    {
+      "id": "a9a96caa-97cd-4ca2-8061-c4215a39e69c",
+      "description": "Savings"
+    },
+    {
+      "id": "ae53cf15-9eaa-400a-abf0-966f60e165fa",
+      "description": "Investments"
+    }
+  ]
 }
